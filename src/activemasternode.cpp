@@ -9,7 +9,7 @@
 #include "clientversion.h"
 
 //
-// Bootup the masternode, look for a 250000 BORALE input and register on the network
+// Bootup the masternode, look for a 250000 BORA input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {
