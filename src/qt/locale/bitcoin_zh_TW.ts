@@ -4,12 +4,12 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bora</source>
-        <translation>關于黑幣</translation>
+        <translation>關于Bora</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Bora&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;黑幣客戶端&lt;/b&gt; 版本</translation>
+        <translation>&lt;b&gt;Bora客戶端&lt;/b&gt; 版本</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -59,7 +59,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-43"/>
         <source>These are your Bora addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>這是您用來接收支付的黑幣地址列表。爲不同的支付方建立不同的地址以便于了解支付來源。</translation>
+        <translation>這是您用來接收支付的Bora地址列表。爲不同的支付方建立不同的地址以便于了解支付來源。</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -74,7 +74,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+7"/>
         <source>Sign a message to prove you own a Bora address</source>
-        <translation>對信息進行簽名以證明您對該黑幣地址的所有權</translation>
+        <translation>對信息進行簽名以證明您對該Bora地址的所有權</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -89,7 +89,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-10"/>
         <source>Verify a message to ensure it was signed with a specified Bora address</source>
-        <translation>驗證信息以保證其經過指定黑幣地址的簽名</translation>
+        <translation>驗證信息以保證其經過指定Bora地址的簽名</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -257,7 +257,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+82"/>
         <source>Bora will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>黑幣客戶端即將關閉以完成加密過程。請記住，加密錢包並不能完全防止您的電子貨幣被入侵您計算機的木馬軟件盜竊。</translation>
+        <translation>Bora客戶端即將關閉以完成加密過程。請記住，加密錢包並不能完全防止您的電子貨幣被入侵您計算機的木馬軟件盜竊。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -351,7 +351,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>Show information about Bora</source>
-        <translation>關于黑幣 </translation>
+        <translation>關于Bora </translation>
     </message>
     <message>
         <location line="+2"/>
@@ -391,7 +391,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-55"/>
         <source>Send coins to a Bora address</source>
-        <translation>向指定的地址發送黑幣</translation>
+        <translation>向指定的地址發送Bora</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -499,12 +499,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+0"/>
         <location line="+58"/>
         <source>Bora client</source>
-        <translation>黑幣客戶端</translation>
+        <translation>Bora客戶端</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
         <source>%n active connection(s) to Bora network</source>
-        <translation><numerusform>與黑幣網絡建立了 %n 個連接</numerusform></translation>
+        <translation><numerusform>與Bora網絡建立了 %n 個連接</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -1715,7 +1715,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BORALE</source>
+        <source>0.00 BORA</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1785,7 +1785,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BORALE</source>
+        <source>123.456 BORA</source>
         <translation type="unfinished"/>
     </message>
     <message>
