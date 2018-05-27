@@ -84,7 +84,6 @@ public:
 
 		CTransaction txNew(1, 1520613688, vin, vout, 0);
 
-//		LogPrintf("genesis mainnet transaction:  %s\n", txNew.ToString().c_str());
 
 		genesis.vtx.push_back(txNew);
 		genesis.hashPrevBlock = 0;
@@ -96,10 +95,6 @@ public:
 
 		hashGenesisBlock = genesis.GetHash();
 
-//		LogPrintf("Display genesis hash so we can input it below %s\n", hashGenesisBlock.ToString().c_str());
-//		LogPrintf("Display merkle root so we can input it below %s\n", genesis.hashMerkleRoot.ToString().c_str());
-//		LogPrintf("Display nonce so we can input it below %s\n", genesis.nNonce);
-//		LogPrintf("Display time so we can input it below %s\n", genesis.nTime);
 
 		assert(genesis.hashMerkleRoot == uint256("0xc0cf283d1ba5430e3789c4f0bbffb75e4be5b49c85c0dc774c482147f952c39d"));
 		assert(hashGenesisBlock == uint256("0x85ff8c890d62f2938fad1a371a64260a3f66c31656afefff81330a65794ca218"));
@@ -111,9 +106,9 @@ public:
 		base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xC2)(0x1E).convert_to_container<std::vector<unsigned char> >();
 		base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xB4).convert_to_container<std::vector<unsigned char> >();
 
-//		vSeeds.push_back(CDNSSeedData("0", "35.185.211.198"));
-//		vSeeds.push_back(CDNSSeedData("1", "93.186.255.102"));
-//		vSeeds.push_back(CDNSSeedData("2", "212.237.7.224"));
+		vSeeds.push_back(CDNSSeedData("0", "35.185.142.219"));
+		vSeeds.push_back(CDNSSeedData("1", "35.229.104.98"));
+//		vSeeds.push_back(CDNSSeedData("2", "218.2567.157.255"));
 		convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
 		nPoolMaxTransactions = 3;

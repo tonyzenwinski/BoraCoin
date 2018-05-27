@@ -1423,21 +1423,21 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
       nSubsidy = 0 * COIN;
     } else if(nBestHeight >= 4321 && nBestHeight <= 38880){
       nSubsidy = 36 * COIN;
-        if (lastDigit == 8) // ULTRABLOCK
+        if (lastDigit == 5) // ULTRABLOCK
                 nSubsidy = 118 * COIN;
-        else if (lastDigit == 2 || lastDigit == 6 || lastDigit == 9) // SUPERBLOCK
+        else if (lastDigit == 2 || lastDigit == 6 || lastDigit == 0) // SUPERBLOCK
                 nSubsidy = 72 * COIN;
     } else if(nBestHeight >= 38881 && nBestHeight < 482400){
       nSubsidy = 42 * COIN;
-        if (lastDigit == 8) // ULTRABLOCK
+        if (lastDigit == 5) // ULTRABLOCK
                 nSubsidy = 136 * COIN;
-        else if (lastDigit == 2 || lastDigit == 6 || lastDigit == 9) // SUPERBLOCK
+        else if (lastDigit == 2 || lastDigit == 6 || lastDigit == 0) // SUPERBLOCK
                 nSubsidy = 84 * COIN;
     } else if(nBestHeight > 482400){
       nSubsidy = 42 * COIN;
-        if (lastDigit == 8) // ULTRABLOCK
+        if (lastDigit == 5) // ULTRABLOCK
                 nSubsidy = 136 * COIN;
-        else if (lastDigit == 2 || lastDigit == 6 || lastDigit == 9) // SUPERBLOCK
+        else if (lastDigit == 2 || lastDigit == 6 || lastDigit == 0) // SUPERBLOCK
                 nSubsidy = 84 * COIN;
     } else{
       nSubsidy = 0 * COIN;
