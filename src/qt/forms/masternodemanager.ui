@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:transparent</string>
+  </property>
   <layout class="QVBoxLayout" name="topLayout">
    <property name="leftMargin">
     <number>0</number>
@@ -33,6 +36,9 @@
      </property>
      <item>
       <widget class="QTabWidget" name="tabWidget">
+       <property name="styleSheet">
+        <string notr="true">background-color:transparent</string>
+       </property>
        <property name="currentIndex">
         <number>1</number>
        </property>

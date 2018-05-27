@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>960</width>
-    <height>594</height>
+    <height>609</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -18,6 +18,15 @@
   </property>
   <property name="windowTitle">
    <string>Form</string>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"></string>
+  </property>
+  <property name="inputMethodHints">
+   <set>Qt::ImhNone</set>
   </property>
   <layout class="QVBoxLayout" name="topLayout">
    <item>
@@ -42,6 +51,9 @@
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
         <widget class="QFrame" name="frame">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -58,6 +70,12 @@
                 <weight>75</weight>
                 <bold>true</bold>
                </font>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::NoFrame</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
               </property>
               <property name="text">
                <string>Balances</string>
@@ -538,10 +556,10 @@
                </colorrole>
                <colorrole role="Button">
                 <brush brushstyle="SolidPattern">
-                 <color alpha="255">
-                  <red>239</red>
-                  <green>238</green>
-                  <blue>238</blue>
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -610,19 +628,19 @@
                </colorrole>
                <colorrole role="Base">
                 <brush brushstyle="SolidPattern">
-                 <color alpha="255">
-                  <red>255</red>
-                  <green>255</green>
-                  <blue>255</blue>
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
                  </color>
                 </brush>
                </colorrole>
                <colorrole role="Window">
                 <brush brushstyle="SolidPattern">
-                 <color alpha="255">
-                  <red>239</red>
-                  <green>238</green>
-                  <blue>238</blue>
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -675,10 +693,10 @@
                </colorrole>
                <colorrole role="Button">
                 <brush brushstyle="SolidPattern">
-                 <color alpha="255">
-                  <red>239</red>
-                  <green>238</green>
-                  <blue>238</blue>
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -747,19 +765,19 @@
                </colorrole>
                <colorrole role="Base">
                 <brush brushstyle="SolidPattern">
-                 <color alpha="255">
-                  <red>255</red>
-                  <green>255</green>
-                  <blue>255</blue>
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
                  </color>
                 </brush>
                </colorrole>
                <colorrole role="Window">
                 <brush brushstyle="SolidPattern">
-                 <color alpha="255">
-                  <red>239</red>
-                  <green>238</green>
-                  <blue>238</blue>
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -812,10 +830,10 @@
                </colorrole>
                <colorrole role="Button">
                 <brush brushstyle="SolidPattern">
-                 <color alpha="255">
-                  <red>239</red>
-                  <green>238</green>
-                  <blue>238</blue>
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -884,19 +902,19 @@
                </colorrole>
                <colorrole role="Base">
                 <brush brushstyle="SolidPattern">
-                 <color alpha="255">
-                  <red>239</red>
-                  <green>238</green>
-                  <blue>238</blue>
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
                  </color>
                 </brush>
                </colorrole>
                <colorrole role="Window">
                 <brush brushstyle="SolidPattern">
-                 <color alpha="255">
-                  <red>239</red>
-                  <green>238</green>
-                  <blue>238</blue>
+                 <color alpha="0">
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
                  </color>
                 </brush>
                </colorrole>
@@ -943,7 +961,7 @@
              <enum>Qt::NoFocus</enum>
             </property>
             <property name="autoFillBackground">
-             <bool>true</bool>
+             <bool>false</bool>
             </property>
             <property name="text">
              <string/>
@@ -1007,7 +1025,7 @@
                </font>
               </property>
               <property name="text">
-               <string notr="true">0 BORALE</string>
+               <string notr="true">0 BORA</string>
               </property>
              </widget>
             </item>
@@ -1021,7 +1039,7 @@
             <item row="4" column="1">
              <widget class="QLabel" name="labelAmountRounds">
               <property name="text">
-               <string>0 BORALE / 0 Rounds</string>
+               <string>0 BORA / 0 Rounds</string>
               </property>
              </widget>
             </item>
@@ -1147,6 +1165,12 @@
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
         <widget class="QFrame" name="frame_2">
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -1164,6 +1188,9 @@
                 <bold>true</bold>
                </font>
               </property>
+              <property name="autoFillBackground">
+               <bool>false</bool>
+              </property>
               <property name="text">
                <string>Recent transactions</string>
               </property>
@@ -1176,6 +1203,9 @@
               </property>
               <property name="toolTip">
                <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Bora network after a connection is established, but this process has not completed yet.</string>
+              </property>
+              <property name="autoFillBackground">
+               <bool>false</bool>
               </property>
               <property name="styleSheet">
                <string notr="true">QLabel { color: red; }</string>
@@ -1205,6 +1235,9 @@
           </item>
           <item>
            <widget class="QListView" name="listTransactions">
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
             <property name="styleSheet">
              <string notr="true">QListView { background: transparent; }</string>
             </property>
@@ -1231,6 +1264,8 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../bitcoin.qrc"/>
+ </resources>
  <connections/>
 </ui>
