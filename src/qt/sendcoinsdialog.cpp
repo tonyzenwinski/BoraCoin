@@ -46,6 +46,8 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
     ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Bora address (e.g. C8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)"));
 #endif
 
+    setStyleSheet("{border-image: url(:/images/00r);}");
+
     addEntry();
 
     connect(ui->addButton, SIGNAL(clicked()), this, SLOT(addEntry()));
@@ -622,7 +624,7 @@ void SendCoinsDialog::processSendCoinsReturn(const WalletModel::SendCoinsReturn 
         msgParams.second = CClientUIInterface::MSG_ERROR;
         break;
     case WalletModel::IXTransactionCreationFailed:
-        msgParams.first = tr("InstantX doesn't support sending values that high yet. Transactions are currently limited to 500 BORALE.");
+        msgParams.first = tr("InstantX doesn't support sending values that high yet. Transactions are currently limited to 500 BORA.");
         msgParams.second = CClientUIInterface::MSG_ERROR;
         break;
     case WalletModel::TransactionCommitFailed:
